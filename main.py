@@ -14,7 +14,7 @@ while True:
         arquivo.write(nome+" "+email+"\n")
         arquivo.close()
         print("Dados Salvos")
-        aguardar(1)
+        aguardar(5)
     elif opcao == "2":
         try:
             arquivo = open("bd.atitus","r")
