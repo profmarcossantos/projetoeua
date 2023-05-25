@@ -2,7 +2,7 @@ from funcoes import limparTela, aguardar
 while True:
     limparTela()
     print("(0) Sair")
-    print("(1) Incluir Aluno")
+    print("(1) Incluir Alunos")
     print("(2) Mostrar Lista")
     print("(3) Deletar todos os registros")
     opcao = input()
